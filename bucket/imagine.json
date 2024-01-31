@@ -1,16 +1,16 @@
 {
-    "version": "1.1.7",
-    "description": "(1MB) Freeware Image & Animation Viewer for Windows",
+    "version": "1.4.0",
+    "description": "(1MB Tiny) Freeware Image & Animation Viewer for Windows",
     "homepage": "https://www.nyam.pe.kr/dev/imagine/",
     "license": {
         "identifier": "Freeware",
-        "url": "https://www.nyam.pe.kr/dev/imagine/"
+        "url": "https://www.nyam.pe.kr/dev/imagine/#license"
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\Imagine.ini\")) { New-Item \"$dir\\Imagine.ini\" | Out-Null }",
     "architecture": {
         "64bit": {
-            "url": "https://www.nyam.pe.kr/dev/imagine/download/x64/Imagine_1.1.7_x64_Unicode.zip",
-            "hash": "95b1e5ee36e89e9b0a160e54fb0ab67548c4d61ceb9ef5ba33867ec836439a19",
+            "url": "https://raw.githubusercontent.com/nyam1003/imagine/main/x64/Imagine_1.4.0_x64_Unicode.zip",
+            "hash": "be01b2b4ee2a629d96b87db1a9dee08b793e25aaebf912fe886d9d31e97ca25c",
             "bin": [
                 "Imagine64.exe",
                 [
@@ -26,8 +26,8 @@
             ]
         },
         "32bit": {
-            "url": "https://www.nyam.pe.kr/dev/imagine/download/unicode/Imagine_1.1.7_Unicode.zip",
-            "hash": "95b1e5ee36e89e9b0a160e54fb0ab67548c4d61ceb9ef5ba33867ec836439a19",
+            "url": "https://raw.githubusercontent.com/nyam1003/imagine/main/Imagine_1.4.0_Unicode.zip",
+            "hash": "5bf7f76bd2555dad69ca725a610729ae2d9ec6859d57e9676fb2d48f378fb885",
             "bin": "Imagine.exe",
             "shortcuts": [
                 [
@@ -46,10 +46,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.nyam.pe.kr/dev/imagine/download/x64/Imagine_$version_x64_Unicode.zip"
+                "url": "https://raw.githubusercontent.com/nyam1003/imagine/main/x64/Imagine_$version_x64_Unicode.zip"
             },
             "32bit": {
-                "url": "https://www.nyam.pe.kr/dev/imagine/download/unicode/Imagine_$version_Unicode.zip"
+                "url": "https://raw.githubusercontent.com/nyam1003/imagine/main/Imagine_$version_Unicode.zip"
             }
         }
     }

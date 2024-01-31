@@ -1,12 +1,12 @@
 {
-    "version": "4.4.0",
+    "version": "4.6.1",
     "description": "GitHub notifications on menu bar",
     "homepage": "https://www.gitify.io",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/manosim/gitify/releases/download/v4.4.0/Gitify-Setup-4.4.0.exe#/dl.7z",
-            "hash": "sha512:8e98a6893f30e376cce87c48a6ae7bab647c5c313c5a0f55e1945289688b30ea1622004eef53326a9e2f320a0eddd6b560e66c65ca076049c979bca43fc38314",
+            "url": "https://github.com/manosim/gitify/releases/download/v4.6.1/Gitify-Setup-4.6.1.exe#/dl.7z",
+            "hash": "sha512:eb6de048cdb8d46e3f664742441faaffe55fcf0bed35d35aa80260fef80fe38a1e37d611550159f8ab95149bcba1f1e4d1e7782073cde70dc74e8dcc3984e8f8",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"

@@ -1,5 +1,5 @@
 {
-    "version": "6.0.6",
+    "version": "6.0.8",
     "description": "The 100% fresh, free-range, ethical browser",
     "homepage": "https://www.waterfox.net",
     "license": "MPL-2.0",
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://cdn1.waterfox.net/waterfox/releases/G6.0.6/WINNT_x86_64/Waterfox%20Setup%20G6.0.6.exe#/dl.7z",
-            "hash": "sha512:28a43fa4a7feda2d014c84899032709c5f634825a7a1d4c15688d0f244a807a0d124c48954a6263b0ddd354847b5a3df4becc811229059d35b71bd079ca7b916"
+            "url": "https://cdn1.waterfox.net/waterfox/releases/G6.0.8/WINNT_x86_64/Waterfox%20Setup%20G6.0.8.exe#/dl.7z",
+            "hash": "sha512:d0dddfda3d94310361459e6cd7521cc1e4aa96856450b7a24b723eb325b532d861e24f08511067e28c9f0a16c155cc214b4ab4eec294d2d788922573dd14ddfe"
         }
     },
     "extract_dir": "core",

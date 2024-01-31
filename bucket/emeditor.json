@@ -1,16 +1,16 @@
 {
-    "version": "22.9.906",
+    "version": "23.1.1",
     "description": "A fast, lightweight and extensible text editor for Windows. Useful for opening very large files.",
     "homepage": "https://www.emeditor.com/",
     "license": "Shareware",
     "architecture": {
         "64bit": {
-            "url": "https://emeditor.blob.core.windows.net/emed64_22.9.906_portable.zip",
-            "hash": "d003cc67d9830e50ec00b95c3e8b850c0847f283c76b1ff63f2328f166721c12"
+            "url": "https://emeditor.blob.core.windows.net/emed64_23.1.1_portable.zip",
+            "hash": "37bf0f63e8118243217d99c933aa1f2f6a800809bd25062ac14bdb58d77117fe"
         },
         "32bit": {
-            "url": "https://emeditor.blob.core.windows.net/emed32_22.9.906_portable.zip",
-            "hash": "a48742761cd016302068c90da5028bb30d4c19f5781d4ff05d02e8b983f89f70"
+            "url": "https://emeditor.blob.core.windows.net/emed32_23.1.1_portable.zip",
+            "hash": "e6d1be134e71665aea5f586a5349ec21e89a0eadf7c81594c91426ad24e565ef"
         }
     },
     "pre_install": [
@@ -34,8 +34,8 @@
         "eePlugins.ini"
     ],
     "checkver": {
-        "url": "https://support.emeditor.com/en/downloads",
-        "regex": "v([\\d.]+)"
+        "url": "https://www.emeditor.com/",
+        "regex": "EmEditor v([\\d.]+) released"
     },
     "autoupdate": {
         "architecture": {

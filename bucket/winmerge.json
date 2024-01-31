@@ -1,20 +1,20 @@
 {
-    "version": "2.16.34",
+    "version": "2.16.38",
     "description": "Differencing and merging tool, that compares both folders and files, presenting differences in a visual text format that is easy to understand and handle.",
     "homepage": "https://winmerge.org",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/WinMerge/winmerge/releases/download/v2.16.34/winmerge-2.16.34-x64-exe.zip",
-            "hash": "c039c37e0894b48629d1f5441b244cd2803593bca5f385049ef9219f168a8b08"
+            "url": "https://github.com/WinMerge/winmerge/releases/download/v2.16.38/winmerge-2.16.38-x64-exe.zip",
+            "hash": "67e8e0ab2b37ac4e9b5e4e80e1f38568ae8c20c16946823b6d16b9f36dc51b55"
         },
         "32bit": {
-            "url": "https://github.com/WinMerge/winmerge/releases/download/v2.16.34/winmerge-2.16.34-exe.zip",
-            "hash": "262cccb031c7fd2a4b1d9aae51685245be89c5f610154d155f51082f64223335"
+            "url": "https://github.com/WinMerge/winmerge/releases/download/v2.16.38/winmerge-2.16.38-exe.zip",
+            "hash": "996052c8e6fc377aa0a1833902c12c4b050d42c3e9ebf3f48f3371ecbf845496"
         },
         "arm64": {
-            "url": "https://github.com/WinMerge/winmerge/releases/download/v2.16.34/winmerge-2.16.34-ARM64-exe.zip",
-            "hash": "812ad2c261200a1fdad9b9d0a4261e9060ee9b1db782537b741bbf55ab3e12d3"
+            "url": "https://github.com/WinMerge/winmerge/releases/download/v2.16.38/winmerge-2.16.38-ARM64-exe.zip",
+            "hash": "82aec9d6f27ba0f555dab260bc4ac162b6997582a47282497a5f6afadd1a86ea"
         }
     },
     "extract_dir": "WinMerge",

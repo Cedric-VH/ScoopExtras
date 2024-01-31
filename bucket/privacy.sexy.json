@@ -1,12 +1,12 @@
 {
-    "version": "0.12.7",
+    "version": "0.12.10",
     "description": "Enforce privacy & security on Windows.",
     "homepage": "https://privacy.sexy/",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/undergroundwires/privacy.sexy/releases/download/0.12.7/privacy.sexy-Setup-0.12.7.exe#/dl.7z",
-            "hash": "sha512:2b22dfef7e57f23bc7c8dbc11c5f6bddd4df39e553758314143d21864c11846250fb7059a70567093223e44fc4ff15e79bfb5e2f9350c4a2d13711a5f374ddfc"
+            "url": "https://github.com/undergroundwires/privacy.sexy/releases/download/0.12.10/privacy.sexy-Setup-0.12.10.exe#/dl.7z",
+            "hash": "sha512:7d4947da9ddc38c4fe8d68e6e060daa29de1afba75dfc21eb9c6bff6307611a919a84878b81a7a93b85107e7dbd1c66e0357517665c576c8fd675591df5d7121"
         }
     },
     "pre_install": [

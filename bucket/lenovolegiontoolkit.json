@@ -1,11 +1,11 @@
 {
-    "version": "2.16.2",
+    "version": "2.19.0",
     "description": "A lightweight alternative to the Lenovo Vantage Software created for Lenovo Legion laptops",
     "homepage": "https://github.com/BartoszCichecki/LenovoLegionToolkit",
     "license": "MIT",
     "depends": "versions/dotnet6-sdk",
-    "url": "https://github.com/BartoszCichecki/LenovoLegionToolkit/releases/download/2.16.2/LenovoLegionToolkitSetup.exe",
-    "hash": "50197a79e8e7b6c91593cf084023c93027fd346488c6b96f8392910cb70e8c51",
+    "url": "https://github.com/BartoszCichecki/LenovoLegionToolkit/releases/download/2.19.0/LenovoLegionToolkitSetup.exe",
+    "hash": "b20d8cd3b3d11693a832c6fc6ed083ccb0fd2d0b88184ffd95769ff94bde20c3",
     "innosetup": true,
     "shortcuts": [
         [
