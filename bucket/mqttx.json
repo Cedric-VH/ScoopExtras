@@ -1,20 +1,20 @@
 {
-    "version": "1.9.8",
+    "version": "1.10.0",
     "description": "MQTT 5.0 Desktop Client",
     "homepage": "https://mqttx.app",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/emqx/MQTTX/releases/download/v1.9.8/MQTTX-Setup-1.9.8-x64.exe#/dl.7z",
-            "hash": "sha512:f404304f6c9cffe2bdba5dd1171782d3d3f192ca8d17d8acda6ace50ad2266dc810c541781b7bf43fbad0ee2db2981a0159e0ba36e777d3929bec9057ba88d41"
+            "url": "https://github.com/emqx/MQTTX/releases/download/v1.10.0/MQTTX-Setup-1.10.0-x64.exe#/dl.7z",
+            "hash": "sha512:d86a58dccabe8de6661b1c66ab258ac36e8a61d86bf69bfe83039afcab18150f51261669dd5c54dc8eb235a23a7a7a67adf19b64ebb1c3d0bc20ed1bccfba9bd"
         },
         "32bit": {
-            "url": "https://github.com/emqx/MQTTX/releases/download/v1.9.8/MQTTX-Setup-1.9.8-ia32.exe#/dl.7z",
-            "hash": "sha512:709d0dd3c08d930acfd802617e33cc4e734e118f091dc0c945929dabc63a41512f7861ec56815ef5e1bc9d323a604df0053ab01d0a71ee43501634ead01fbca4"
+            "url": "https://github.com/emqx/MQTTX/releases/download/v1.10.0/MQTTX-Setup-1.10.0-ia32.exe#/dl.7z",
+            "hash": "sha512:90d1ea225619ffef3568166a9769ac11e0615b3d530f106c0e52430603a1be1172c99d32f2c744dc6535a510abd77ec88e9521b0fc4b827335cb84c046225a9f"
         },
         "arm64": {
-            "url": "https://github.com/emqx/MQTTX/releases/download/v1.9.8/MQTTX-Setup-1.9.8-arm64.exe#/dl.7z",
-            "hash": "sha512:7196e6f0d8ad2677f9a2d945266ad4064b767f636af2e584008eb1dbd2b38f9cdb7c1dfc3668c2af83554424fa5512936db05ebb58d710d28e153f3afd2d3a7a"
+            "url": "https://github.com/emqx/MQTTX/releases/download/v1.10.0/MQTTX-Setup-1.10.0-arm64.exe#/dl.7z",
+            "hash": "sha512:9d5b863f732853cbcbf717e44c43a5e9089cb0cafdf19384bc5be3245bf9eb77da0f725f9816e314cb0ed0e349f33e379183c975a8b51b5d5882d6d2a0f250b4"
         }
     },
     "pre_install": [

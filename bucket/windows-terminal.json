@@ -1,5 +1,5 @@
 {
-    "version": "1.19.10292.0",
+    "version": "1.20.11781.0",
     "description": "The new Windows Terminal, and the original Windows console host - all in the same place!",
     "homepage": "https://github.com/microsoft/terminal",
     "license": "MIT",
@@ -9,19 +9,19 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/microsoft/terminal/releases/download/v1.19.10292.0/Microsoft.WindowsTerminal_1.19.10292.0_x64.zip",
-            "hash": "ddf673666eef46f088668f498456f049067b9c9dceaa8bde357164548f6629f1"
+            "url": "https://github.com/microsoft/terminal/releases/download/v1.20.11781.0/Microsoft.WindowsTerminal_1.20.11781.0_x64.zip",
+            "hash": "b7a6046903ce33d75250da7e40ad2929e51703ab66e9c3a0b02a839c2e868fec"
         },
         "32bit": {
-            "url": "https://github.com/microsoft/terminal/releases/download/v1.19.10292.0/Microsoft.WindowsTerminal_1.19.10292.0_x86.zip",
-            "hash": "3bee43bd220be7ac52b9b264b1940be9e4532a939609310fd622252d476becc0"
+            "url": "https://github.com/microsoft/terminal/releases/download/v1.20.11781.0/Microsoft.WindowsTerminal_1.20.11781.0_x86.zip",
+            "hash": "32a80220acf4512676ea8fb4eb503f18832a17da8c03b85fcf9cd8a0da34e3b2"
         },
         "arm64": {
-            "url": "https://github.com/microsoft/terminal/releases/download/v1.19.10292.0/Microsoft.WindowsTerminal_1.19.10292.0_arm64.zip",
-            "hash": "9f07a9967301c9809c446e05d6103f92f858528cd1a1c910c5b39b444711abcb"
+            "url": "https://github.com/microsoft/terminal/releases/download/v1.20.11781.0/Microsoft.WindowsTerminal_1.20.11781.0_arm64.zip",
+            "hash": "f3bf1529ea629bb586817ce81ddba28a2c64e83b71b023bc1e652745b70da9be"
         }
     },
-    "extract_dir": "terminal-1.19.10292.0",
+    "extract_dir": "terminal-1.20.11781.0",
     "pre_install": [
         "# Remove this hint in 2023-12-01",
         "$settings_path = \"$env:LOCALAPPDATA\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\"",

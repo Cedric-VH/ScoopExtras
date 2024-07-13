@@ -1,16 +1,17 @@
 {
-    "version": "10.3.1",
+    "version": "11.1.0",
     "description": "Open platform for analytics and data monitoring",
     "homepage": "https://grafana.com/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://dl.grafana.com/oss/release/grafana-10.3.1.windows-amd64.zip",
-            "hash": "381a9b0682a178fcb00b10e31540a7f7d9627ebe741fc8048e394f3bc26aa9b3"
+            "url": "https://dl.grafana.com/oss/release/grafana-11.1.0.windows-amd64.zip",
+            "hash": "a55788ca49554cf0a0c7f0b017bdfc108cc6007e0898ac80cbddf72317cab9b8"
         }
     },
-    "extract_dir": "grafana-v10.3.1",
+    "extract_dir": "grafana-v11.1.0",
     "bin": [
+        "bin\\grafana-cli.exe",
         [
             "bin\\grafana-server.exe",
             "grafana-server",
